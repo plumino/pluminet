@@ -1,0 +1,28 @@
+{
+  "name": "pluminet",
+  "version": "1.0.0",
+  "description": "plumino online backend server",
+  "main": "index.js",
+  "dependencies": {
+    "@ayana/logger": "^2.0.0-beta.3",
+    "@overnightjs/core": "^1.6.9",
+    "argon2": "^0.24.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.2.7",
+    "morgan": "^1.9.1",
+    "toml": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/mongodb": "^3.1.28",
+    "@types/node": "^12.0.8",
+    "typescript": "^3.5.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "tsc && node dist"
+  },
+  "author": "plumino team",
+  "license": "ISC"
+}
